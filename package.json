@@ -1,0 +1,22 @@
+{
+  "name": "vue",
+  "author": {
+    "name": "steam-404",
+    "url": "https://github.com/steam-404",
+    "email": "2507138657@qq.com"
+  },
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.3.9"
+  }
+}
