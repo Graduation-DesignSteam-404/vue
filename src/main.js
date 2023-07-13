@@ -11,6 +11,8 @@ for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
     app.component(key, component)
 }
 
+import '@mdi/font/css/materialdesignicons.css'
+
 app.use(element)
 app.use(router)
 app.mount('#app')

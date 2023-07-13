@@ -3,7 +3,10 @@
 </script>
 <template>
     <div id="main">
-        <p><strong>图书管理系统</strong></p>
+        <p><strong>
+            图书管理系统
+            <i class="mdi mdi-book-account"></i>
+        </strong></p>
         <div id="link">
             <el-button type="primary" plain>
                 <router-link to="/user">
