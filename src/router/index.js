@@ -26,6 +26,8 @@ import removeBook from "@/components/view/admin/removeBook.vue";
 import appendUser from "@/components/view/admin/appendUser.vue";
 // 删除用户
 import removeUser from "@/components/view/admin/removeUser.vue";
+// 借阅记录
+import borrowing from '@/components/view/admin/borrowingList.vue'
 
 
 import {createRouter, createWebHashHistory} from "vue-router";
@@ -57,6 +59,10 @@ const routes = [
             {
                 path: '/removeUser',
                 component: removeUser,
+            },
+            {
+                path: '/borrowing',
+                component: borrowing,
             }
         ]
     },

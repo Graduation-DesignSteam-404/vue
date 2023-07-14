@@ -44,6 +44,12 @@ export default defineComponent({
             <span class="mdi mdi-account-remove"></span>
         </router-link>
     </el-button>
+    <el-button type="success" plain>
+        <router-link to="/borrowing">
+            借阅记录
+            <span class="mdi mdi-format-list-numbered"></span>
+        </router-link>
+    </el-button>
     <router-view></router-view>
 </template>
 
