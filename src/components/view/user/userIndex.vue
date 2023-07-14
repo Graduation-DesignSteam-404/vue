@@ -32,6 +32,7 @@ export default defineComponent({
             <span class="mdi mdi-arrow-up-bold"></span>
         </router-link>
     </el-button>
+    <br>
     <router-view></router-view>
 </template>
 
